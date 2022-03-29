@@ -1,5 +1,25 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "js-diving-deeper",
+  "version": "1.0.0",
+  "description": "Practicing node js from the ground up",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dami-laare/node-js-diving-deeper.git"
+  },
+  "author": "Temitayo Osunkiyesi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dami-laare/node-js-diving-deeper/issues"
+  },
+  "homepage": "https://github.com/dami-laare/node-js-diving-deeper#readme"
 }
