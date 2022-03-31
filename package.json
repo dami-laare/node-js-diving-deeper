@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "dotenv": "^16.0.0",
-    "nodemon": "^2.0.15"
+    "dotenv": "^16.0.0"
   },
   "scripts": {
     "dev": "nodemon server.js",
@@ -11,7 +10,6 @@
   "version": "1.0.0",
   "description": "Practicing node js from the ground up",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dami-laare/node-js-diving-deeper.git"
@@ -21,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dami-laare/node-js-diving-deeper/issues"
   },
-  "homepage": "https://github.com/dami-laare/node-js-diving-deeper#readme"
+  "homepage": "https://github.com/dami-laare/node-js-diving-deeper#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
